@@ -71,6 +71,10 @@ body {
     border-radius: 15px;
 }
 
+.banner .banner-texto h1 {
+    font-size: 30px;
+}
+
 .categoria {
     padding: 20px;
 }
@@ -82,8 +86,8 @@ body {
 
 
 .card {
-    background: #1c1c1c;
-    padding: 10px;
+    background: #1c1c1c;;
+    padding: 50px;
     text-align: center;
     width: 200px;
 }
