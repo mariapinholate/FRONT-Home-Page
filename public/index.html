@@ -4,84 +4,109 @@
     <meta charset="UTF-8">
     <title>Maluflix</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 
 <body>
 
 <header class="header">
-    <h1>MALUFLIX </h1>
+    <h1>MALUFLIX</h1>
 
     <nav class="menu">
         <a href="#">Início</a>
-        <a href="#">Filmes</a>
-        <a href="#">Séries</a>
-        <a href="#"> Minha Lista </a>
+        <a href="#">Lançamentos </a>
         <a href="#"> Novidades </a>
+        <a href="#">Minha Lista</a>
     </nav>
 </header>
 
 <main class="principal">
 
-    <section class="pesquisa">
-
-    <input type="text" placeholder="Buscar...">
-    <button>Buscar</button>
-
-    </section>
     
-<section class="banner">
-    <img src="img/banner.png" alt=" imagem do banner do site"> 
-</section>
+    <section class="pesquisa">
+        <input type="text" placeholder="Buscar...">
+        <button>Buscar</button>
+    </section>
 
-<section class="categoria">
-    <h2> Séries mais assistidas  </h2>
+    
+    <section class="banner">
+        <img src="img/banner.png" alt="banner do site">
 
-    <article class="card">
-        <img src="img/filme1.jpg" alt="imagem do filme 1">
-        <button> Adicionar a minha lista </button>
-    </article>
+        <div class="banner-texto">
+            <h1>Grande Estreia</h1>
+            <p> 📅 Abril 2026  </p>
+            <button> Ver mais  </button>
+        </div>
+    </section>
 
-     <article class="card">
-        <img src="img/filme2.jpg" alt="imagem do filme 2 ">
-    </article>
+    
+    <section class="categoria">
+        <h2> 🔥 Em breve </h2>
 
-    <article class="card">
-        <img src="img/filme3.webp" alt="imagem do filme 3 ">
-    </article>
-</section>
+        <div class="cards">
+            <article class="card">
+                <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" alt="capa da série">
+                <h3> Titulo </h3>
+                <p> 📅 Maio 2026 </p>
+                <button>Ver mais </button>
+            </article>
 
-<section class="categoria">
-    <h2> Filmes mais assistidos  </h2>
+            <article class="card">
+                <img src=" https://picsum.photos/id/1/200/300" alt="capa da série">
+                <h3> Título </h3>
+                <p> 📅 Maio 2026 </p>
+                <button>Ver mais </button>
+            </article>
 
-    <article class="card">
-        <img src="img/serie1.png" alt= "imagem da serie 1 ">
-    </article>
+            <article class="card">
+                <img src="https://picsum.photos/id/7/200/300.jpg" alt= "capa da série">
+                <h3> Título </h3>
+                <p> 📅 Junho 2026 </p>
+                <button> Ver mais </button>
+            </article>
+        </div>
+    </section>
 
-     <article class="card">
-        <img src="img/serie2.png" alt="imagem da serie 2 ">
-    </article>
+    <section class="categoria">
+        <h2> 🔴 Mais aguardados </h2>
 
-    <article class="card">
-        <img src="img/serie3.png" alt="imagem da serie 3">
-    </article>
-</section>
+        <div class="cards">
+            <article class="card">
+                <img src="https://picsum.photos/id/12/200/300.jpg" alt="capa do filme">
+                <h3> Titulo </h3>
+                <button>Ver mais </button>
+            </article>
 
-<section class="formulario">
-    <h2> Receber Novidades </h2>
-    <form>
+            <article class="card">
+                <img src="https://picsum.photos/id/20/200/300.jpg" alt="capa do filme">
+                <h3> Titulo  </h3>
+                <button>Ver mais </button>
+            </article>
 
-        <input type="text" placeholder="Nome">
-        <input type="email" placeholder=" Email">
-        <input type="text" placeholder="Gênero Favorito ">
-        <button type="submit"> Enviar </button>
-    </form>
-</section>
+            <article class="card">
+                <img src="https://picsum.photos/id/50/200/300.jpg" alt="capa do filme">
+                <h3> Titulo </h3>
+
+                <button> Ver mais </button>
+            </article>
+        </div>
+    </section>
+
+    
+    <section class="formulario">
+        <h2> ✉ Receber Novidades</h2>
+
+        <form>
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="genero" placeholder="Gênero favorito">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
 </main>
 
 <footer class="footer">
-    <p> Site Maluflix </p>
+    <p> ❤ 2026 - Maluflix</p>
 </footer>
 
 </body>
